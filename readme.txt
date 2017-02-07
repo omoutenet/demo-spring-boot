@@ -7,7 +7,7 @@ PUT http://localhost:8095/news/425a314c-23f7-4d83-84f7-cdd0a0a55c10  : update
 DELETE http://localhost:8095/news/425a314c-23f7-4d83-84f7-cdd0a0a55c10  : delete
 POST http://localhost:8095/news  create
 
-Web Socket : http://localhost:8095/news-websocket
+Web Socket : http://localhost:8095/news-websocket  /topic/news
 
 Default page display news event – create - update (every 2 sec) : http://localhost:8095
 GET http://localhost:8095/news/reload : reload data from start
